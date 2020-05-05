@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: hsl(230, 17%, 14%);
+  }
+  
+  hr{
+    margin-top: 5%;
+    border-top: 1px solid hsl(228, 34%, 66%);
+  }
+  
+  .dark-h{
+    color: hsl(0, 0%, 100%);
+  }
+  
+  
+  
+  /* Title Section */
+  
+  #title{
+    padding: 60px 7% 150px;
+  }
+  
+  .heading-hr{
+    border-bottom: 1px solid hsl(228, 34%, 66%);
+    margin-bottom: 13px;
+  }
+  
+  .dark-mode-title{
+    background-color: hsl(232, 19%, 15%);
+  }
+  
+  .dark-p{
+    color: hsl(228, 34%, 66%);
+  }
+  
+  .float-lf{
+    float: left;
+  }
+  
+  .float-drk{
+    float: left;
+  }
+  
+  .dark-theme-txt{
+    color: hsl(228, 34%, 66%);
+  }
+  
+  .float-rt{
+    float: right;
+  }
+  
+  @media (min-width: 993px) {
+  
+    .heading-hr{
+      border-bottom: 0;
+      margin-bottom: 0;
+    }
+  
+    .float-drk{
+      float: right;
+      margin-left: 15px;
+    }
+  
+  
+  }
+  
+  
+  /* Profile Section */
+  
+  #profiles{
+      padding: 3% 7% 60px;
+  }
+  
+  .profile-container{
+    margin-top: -130px;
+  }
+  
+  .profile-col{
+    margin: 15px 0;
+  }
+  
+  .profile-card{
+    border-radius: 10px;
+    padding: 9%;
+    text-align: center;
+    background-color: hsl(228, 28%, 20%);
+  }
+  
+  .profile-ico{
+    margin-right: 3%;
+  }
+  
+  .follower-weight{
+    font-weight: 300;
+  }
+  
+  .facebook-bdr{
+    border-top: 5px solid hsl(195, 100%, 50%);
+  }
+  
+  .twitter-bdr{
+    border-top: 5px solid hsl(203, 89%, 53%);
+  }
+  
+  .instagram-bdr{
+    border-top: 5px solid;
+    border-image: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+    border-image-slice: 1;
+  }
+  
+  .youtube-bdr{
+    border-top: 5px solid hsl(348, 97%, 39%);
+  }
+  
+  .green{
+    margin-top: 30px;
+    color: hsl(163, 72%, 41%);
+  }
+  
+  .red{
+    margin-top: 30px;
+    color: hsl(356, 69%, 56%);
+  }
+  
+  
+  /* Overview Section */
+  
+  #overview{
+    padding: 3% 7% 15%;
+  }
+  
+  .overview-card{
+    border-radius: 10px;
+    padding: 9%;
+    background-color: hsl(228, 28%, 20%);
+  }
+  
+  .clear{
+    clear: left;
+  }
+  
+  
+  /* ----------------------------------------------------------- */
+  
+  
+  /* JS */
+  
+  
+  .light-mode{
+    background-color: #fff;
+  }
+  
+  .light-mode-title{
+    background-color: hsl(225, 100%, 98%);
+  }
+  
+  .light-h{
+    color: hsl(230, 17%, 14%);
+  }
+  
+  .light-p{
+    color: hsl(228, 12%, 44%);
+  }
+  
+  .profile-card-light{
+    background-color: hsl(227, 47%, 96%);
+  }
